@@ -1,0 +1,93 @@
+{{set . "title" "特币宝 - 快乐世界杯"}}
+{{set . "active" "index"}}
+{{template "header.html" .}}
+{{template "bs-header.html" .}}
+<div class="container bs-docs-container">
+	<div class="row">
+		<div class="col-md-12">
+			<div>
+				<ul class="nav nav-tabs">
+					<li>
+						<a href="#615" data-toggle="tab">6-15 周日</a>
+					</li>
+					<li>
+						<a href="#616" data-toggle="tab">6-16 周一</a>
+					</li>
+					<li>
+						<a href="#617" data-toggle="tab">6-17 周二</a>
+					</li>
+					<li>
+						<a href="#618" data-toggle="tab">6-18 周三</a>
+					</li>
+					<li>
+						<a href="#619" data-toggle="tab">6-19 周四</a>
+					</li>
+					<li>
+						<a href="#620" data-toggle="tab">6-20 周五</a>
+					</li>
+					<li class="active">
+						<a href="#621" data-toggle="tab">6-21 周六</a>
+					</li>
+				</ul>
+				<!-- Tab panes -->			
+				<div class="tab-content">
+					<div class="tab-pane" id="615">
+						<div class="row">
+							<div class="col-md-4">{{template "615-1.html" .}}</div>
+							<div class="col-md-4">{{template "615-2.html" .}}</div>
+							<div class="col-md-4">{{template "615-3.html" .}}</div>
+						</div>
+						<div class="row">
+							<div class="col-md-4">{{template "615-4.html" .}}</div>
+							<div class="col-md-4"></div>
+							<div class="col-md-4"></div>
+						</div>
+					</div>
+					<div class="tab-pane" id="616">
+						<div class="row">
+							<div class="col-md-4">{{template "616-1.html" .}}</div>
+							<div class="col-md-4">{{template "616-2.html" .}}</div>
+							<div class="col-md-4">{{template "616-3.html" .}}</div>
+						</div>
+					</div>
+					<div class="tab-pane" id="617">
+						<div class="row">
+							<div class="col-md-4">{{template "617-1.html" .}}</div>
+							<div class="col-md-4">{{template "617-2.html" .}}</div>
+							<div class="col-md-4">{{template "617-3.html" .}}</div>
+						</div>
+					</div>
+					<div class="tab-pane" id="618">
+						<div class="row">
+							<div class="col-md-4">{{template "618-1.html" .}}</div>
+							<div class="col-md-4">{{template "618-2.html" .}}</div>
+							<div class="col-md-4">{{template "618-3.html" .}}</div>
+						</div>
+					</div>
+					<div class="tab-pane" id="619">
+						<div class="row">
+							<div class="col-md-4">{{template "619-1.html" .}}</div>
+							<div class="col-md-4">{{template "619-2.html" .}}</div>
+							<div class="col-md-4">{{template "619-3.html" .}}</div>
+						</div>
+					</div>
+					<div class="tab-pane" id="620">
+						<div class="row">
+							<div class="col-md-4">{{template "620-1.html" .}}</div>
+							<div class="col-md-4">{{template "620-2.html" .}}</div>
+							<div class="col-md-4">{{template "620-3.html" .}}</div>
+						</div>
+					</div>
+					<div class="tab-pane active" id="621">
+						<div class="row">
+							<div class="col-md-4">{{template "621-1.html" .}}</div>
+							<div class="col-md-4">{{template "621-2.html" .}}</div>
+							<div class="col-md-4">{{template "621-3.html" .}}</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+{{template "footer.html" .}}

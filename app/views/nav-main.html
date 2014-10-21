@@ -1,0 +1,28 @@
+<header class="navbar navbar-inverse navbar-static-top bs-docs-nav" role="banner">
+	<div class="container">
+		<div class="navbar-header">
+			<button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a href="/" class="navbar-brand">特币宝</a>
+		</div>
+		<nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+			<ul class="nav navbar-nav">
+				<li {{if eq .active "index"}}class="active"{{end}}>
+					<a href="/">首页</a>
+				</li>
+				<li {{if eq .active "help"}}class="active"{{end}}>
+					<a href="/help">在线帮助</a>
+				</li>
+			</ul>
+			<ul class="nav navbar-nav navbar-right">
+				<li {{if eq .active "about"}}class="active"{{end}}>
+					<a href="/about">关于我们</a>
+				</li>
+			</ul>
+		</nav>
+	</div>
+</header>

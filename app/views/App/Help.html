@@ -1,0 +1,101 @@
+{{set . "title" "特币宝 - 在线帮助"}}
+{{set . "active" "help"}}
+{{template "header.html" .}}
+<div class="bs-header" id="content">
+	<div class="container">
+		<h1>在线帮助</h1>
+		<p>使用“比特币”竞猜世界杯,让2014的巴西世界杯更加欢乐！投注简单快捷、信息公开透明、中奖金额源地址返回！</p>
+	</div>
+</div>
+<div class="container bs-docs-container">
+	<div class="row">
+		<div class="col-md-3">
+			<ul class="nav bs-sidenav">
+				<li>
+					<a href="#How-to-pay-the-quiz">如何投币竞猜?</a>
+				</li>
+				<li>
+					<a href="#The-winning-the-award">中奖了如何领奖?</a>
+				</li>
+				<li>
+					<a href="#How-to-calculate-the-amount-won">怎样计算中奖金额?</a>
+				</li>
+				<li>
+					<a href="#Expired-on-how-to-do">过期投注了怎么办?</a>
+				</li>
+				<li>
+					<a href="#How-to-view-the-position">如何查看本场比赛投注情况?</a>
+				</li>
+				<li><a href="#And-whom-to-contact">如果还有问题，和谁联系?</a></li>
+			</ul>
+		</div>
+		<div class="col-md-9">
+			<div class="bs-docs-section">
+				<div class="page-header">
+					<h1 id="How-to-pay-the-quiz">如何投币竞猜?</h1>
+				</div>
+				<p class="lead">
+					使用比特币投注竞猜操作非常简单，只要你拥有<a href="https://blockchain.info/zh-cn/wallet/login" target="_blank">BlockChain</a>在线钱包，向你预测比赛结果的比特币钱包地址发送你要投注的金额即可。
+				</p>
+				<div class="bs-callout bs-callout-warning">
+					<h4>1、查看预测比赛结果的比特币钱包地址</h4>
+					<p>
+						每场比赛一定会有3种可能，分别是甲胜、平、乙胜。在它们下面分别对应一个二维码比特币地址。可以通过扫描二维码获得比特币字符串地址，也可以点击二维码获得比特字符串地址。
+						<img src="/public/help/1.jpg"></p>
+				</div>
+				<div class="bs-callout bs-callout-warning">
+					<h4>2、向预测比赛结果的比特币钱包地址发送你要投注的金额</h4>
+					<p>使用BlockChain在线钱包，发送比特币最为方便，因为它可以选择发送的比特币地址。使用BlockChain自定义发送（Custom Transaction），选择好发送的地址，填好预测比赛结果的比特币钱包地址，点击【Review Payment】，最后确认即可。<img src="/public/help/2.jpg"></p>
+				</div>
+				<div class="bs-callout bs-callout-warning">
+					<h4>注意</h4>
+					<p>不要采用交易所提币的方式来投注</p>
+				</div>
+			</div>
+			<div class="bs-docs-section">
+				<div class="page-header">
+					<h1 id="The-winning-the-award">中奖了如何领奖?</h1>
+				</div>
+				<p class="lead">如果猜中了比赛结果，奖金将会在比赛结束的第二天自动返回到你所投注使用的比特币地址中里。</p>
+				<div class="bs-callout bs-callout-warning">
+					<h4>注意</h4>
+					<p>不要弄丢你或删除你所投注使用的比特币地址密钥</p>
+				</div>
+			</div>
+			<div class="bs-docs-section">
+				<div class="page-header">
+					<h1 id="How-to-calculate-the-amount-won">怎样计算中奖金额?</h1>
+				</div>
+				<p class="lead">我们采用的是单场竞猜中最简单的一种方法：“猜输平赢”。猜错的奖金和就是本场比赛的奖金。而你的奖金就是你所投注组所在的比例剩以本场奖金。</p>
+				<div class="bs-callout bs-callout-warning">
+					<h4>计算公式</h4>
+					<p>P奖金=P投注 +（P投注/A投注）*（B投注+C投注）* 95%-0.0001฿</p>
+					<p>注:0.0001฿是比特币网络转账交易费</p>
+				</div>
+			</div>
+			<div class="bs-docs-section">
+				<div class="page-header">
+					<h1 id="Expired-on-how-to-do">过期投注了怎么办?</h1>
+				</div>
+				<p class="lead">每场比赛都在下面标注了“竞猜截止时间”，超过竞猜截止时间投注的不参与计算。投注金额将在比赛结束的第三天源地址返回。竞猜截止时间是根据比特币交易时间戳来确定。</p>
+				<div class="bs-callout bs-callout-warning">
+					<h4>注意</h4>
+					<p>尽量要避免这种情况，最好在比赛开始前半小时投注。</p>
+				</div>
+			</div>
+			<div class="bs-docs-section">
+				<div class="page-header">
+					<h1 id="How-to-view-the-position">如何查看本场比赛投注情况?</h1>
+				</div>
+				<p class="lead">比特币的交易数据对全网公开透明，点击<img src="/public/help/3.jpg">这个地方可以查看此项投注的详细信息。其中里面包括总投注金额、投注明细和中奖返现明细。</p>
+			</div>
+			<div class="bs-docs-section">
+				<div class="page-header">
+					<h1 id="And-whom-to-contact">如果还有问题，和谁联系?</h1>
+				</div>
+				<p class="lead">请将问题发送邮件到76855911@qq.com，我们会及时给你回复。</p>
+			</div>
+		</div>
+	</div>
+</div>
+{{template "footer.html" .}}
